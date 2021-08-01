@@ -15,5 +15,5 @@ class Motorcycle(Vehicle):
 
 # Overriden method
     def Detail(self):
-        detail = "make:"+ self.make +",year:"+ str(self.year) + ",price:"+ str(self.price) + ",trims:"+ str(self.no_of_trims)
+        detail = "make:"+ self.make +", year:"+ str(self.year) + ", price:"+ str(self.price) + ", trims:"+ str(self.no_of_trims)
         return detail
