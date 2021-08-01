@@ -15,5 +15,5 @@ class Car(Vehicle):
 
 # Overriden method
     def Detail(self):
-        detail = "make:"+ self.make +",year:"+ str(self.year) + ",price:"+ str(self.price) + ",seats:"+ str(self.no_of_seats)
+        detail = "make:"+ self.make +", year:"+ str(self.year) + ", price:"+ str(self.price) + ", seats:"+ str(self.no_of_seats)
         return detail
